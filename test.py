@@ -25,6 +25,7 @@ while True:
     # preprocessing 
     sentence = tokenize(sentence)
     x = bag_of_words(sentence,vocabulary)
+    print(x)
     x = x.reshape(1,-1) # to make it a 2D array for the modal bech yfhemha
 
     #prediction the response
